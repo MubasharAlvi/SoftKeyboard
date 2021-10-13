@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rate_us_dialog">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_280sdp"
+        android:layout_margin="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="@dimen/_10sdp"-->
+<!--        android:fontFamily="@font/poppins_regular"-->
+<!--        android:text="@string/we_are_happy_n_when_you_are_happy"-->
+<!--        android:textColor="#2c4fa0"-->
+<!--        android:textSize="@dimen/_12sdp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.21"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView"-->
+<!--        app:layout_constraintVertical_bias="1.0" />-->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/would_you_like_to_rate_us"
+        android:textColor="#2f5f61"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rateUs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <ImageView
+        android:id="@+id/rateUs"
+        android:layout_width="79dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppins_regular"
+        android:src="@drawable/rate_btn"
+        android:text="Yes"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="79dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/poppins_regular"
+        android:src="@drawable/exit"
+        android:text="Later"
+        android:textColor="#2c4fa0"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rateUs"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

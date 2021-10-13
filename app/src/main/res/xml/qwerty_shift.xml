@@ -1,0 +1,189 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:keyWidth="38%p"
+    android:keyHeight="@dimen/_38sdp"
+    android:verticalGap="4dp">
+
+    <Row
+        android:horizontalGap="5dp"
+        android:keyWidth="8.2%p"
+        android:rowEdgeFlags="top">
+        <Key
+            android:codes="3077"
+            android:keyEdgeFlags="left"
+            android:keyLabel="అ" />
+        <Key
+            android:codes="3078"
+            android:keyLabel="ఆ" />
+        <Key
+            android:codes="3079"
+            android:keyLabel="ఇ" />
+        <Key
+            android:codes="3080"
+            android:keyLabel="ఈ" />
+        <Key
+            android:codes="3081"
+            android:keyLabel="ఉ" />
+        <Key
+            android:codes="3082"
+            android:keyLabel="ఊ" />
+        <Key
+            android:codes="3086"
+            android:keyLabel="ఎ" />
+        <Key
+            android:codes="3087"
+            android:keyLabel="ఏ" />
+        <Key
+            android:codes="3088"
+            android:keyLabel="ఐ" />
+        <Key
+            android:codes="3090"
+            android:keyEdgeFlags="right"
+            android:keyLabel="ఒ" />
+    </Row>
+    <Row
+        android:horizontalGap="5dp"
+        android:keyWidth="8.2%p">
+        <Key
+            android:codes="3091"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ఓ" />
+        <Key
+            android:codes="3092"
+            android:keyLabel="ఔ" />
+        <Key
+            android:codes="3083"
+            android:keyLabel="ఋ" />
+        <Key
+            android:codes="3134"
+            android:keyLabel="ా" />
+        <Key
+            android:codes="3135"
+            android:keyLabel="ి" />
+        <Key
+            android:codes="3136"
+            android:keyLabel="ీ" />
+        <Key
+            android:codes="3137"
+            android:keyLabel="ు" />
+        <Key
+            android:codes="3138"
+            android:keyLabel="ూ" />
+        <Key
+            android:codes="3139"
+            android:keyLabel="ృ" />
+        <Key
+            android:codes="3140"
+            android:keyEdgeFlags="right"
+            android:keyLabel="ౄ" />
+        <!--<Key android:codes="-31"  android:keyEdgeFlags="right" android:keyWidth="20%p" android:keyIcon="@drawable/mic"  />-->
+    </Row>
+    <Row
+        android:horizontalGap="5dp"
+        android:keyWidth="8.2%p">
+        <Key
+            android:codes="3142"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ె" />
+        <Key
+            android:codes="3143"
+            android:keyLabel="ే" />
+        <Key
+            android:codes="3146"
+            android:keyLabel="ొ" />
+        <Key
+            android:codes="3147"
+            android:keyLabel="ో" />
+        <Key
+            android:codes="3144"
+            android:keyLabel="ై" />
+        <Key
+            android:codes="3149"
+            android:keyLabel="్" />
+        <Key
+            android:codes="3148"
+            android:keyLabel="ౌ" />
+        <Key
+            android:codes="3074"
+            android:keyLabel="ం" />
+        <Key
+            android:codes="3075"
+            android:keyLabel="ః" />
+        <Key
+            android:codes="3135"
+            android:keyEdgeFlags="right"
+            android:keyLabel="ి" />
+    </Row>
+
+    <Row
+        android:horizontalGap="4.5dp"
+        android:keyWidth="7.5%p"
+        >
+        <Key
+            android:codes="-7"
+            android:keyEdgeFlags="left"
+            android:keyWidth="12%p"
+            android:keyIcon="@drawable/ic_shit_green" />
+        <Key
+            android:codes="-2363"
+            android:keyLabel="క్ష" />
+        <Key
+            android:codes="3121"
+            android:keyLabel="ఱ" />
+        <Key
+            android:codes="3123"
+            android:keyLabel="ళ" />
+        <Key
+            android:codes="3175"
+            android:keyLabel="౧" />
+        <Key
+            android:codes="3176"
+            android:keyLabel="౨" />
+        <Key
+            android:codes="3177"
+            android:keyLabel="౩" />
+        <Key
+            android:codes="3178"
+            android:keyLabel="౪" />
+        <Key
+            android:codes="3179"
+            android:keyLabel="౫" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyWidth="12%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_delete_icon_green" />
+    </Row>
+
+    <Row
+        android:horizontalGap="3.5dp"
+        android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="-20"
+            android:keyWidth="15%p"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/ic_123_green" />
+
+        <Key
+            android:codes="44"
+            android:keyWidth="10%p"
+            android:keyLabel="," />
+
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyWidth="40%p"
+            android:keyLabel="SPACE" />
+
+        <Key
+            android:codes="46"
+            android:isRepeatable="true"
+            android:keyWidth="10%p"
+            android:keyLabel="." />
+        <Key
+            android:codes="-4"
+            android:keyWidth="16%p"
+            android:keyIcon="@drawable/ic_enter_green" />
+    </Row>
+</Keyboard>

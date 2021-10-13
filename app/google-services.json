@@ -1,0 +1,414 @@
+{
+  "project_info": {
+    "project_number": "579424357201",
+    "firebase_url": "https://quran-tutor-1bfc6.firebaseio.com",
+    "project_id": "quran-tutor-1bfc6",
+    "storage_bucket": "quran-tutor-1bfc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:7e52af80f2bd92c9",
+        "android_client_info": {
+          "package_name": "com.qt.malayalamkeyboard.malayalamtyping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:8c1ec71e2468082e",
+        "android_client_info": {
+          "package_name": "com.qt.marathityping.marathikeyboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:14e6b0ae291f4197",
+        "android_client_info": {
+          "package_name": "com.qt.muslim.islampro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:b7d4be074889b6a1",
+        "android_client_info": {
+          "package_name": "com.qt.qibla.salahtimes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:d761558c6478c74e",
+        "android_client_info": {
+          "package_name": "com.qt.quran.alquranmp3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:4117ddf0c10671f4",
+        "android_client_info": {
+          "package_name": "com.qt.quran.quranmelayu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:aced7649129e4ffe",
+        "android_client_info": {
+          "package_name": "com.qt.quran.urduquran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:47f731a2042121cc",
+        "android_client_info": {
+          "package_name": "com.qt.ramadan.ramadantimings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:4feed9c5cc618be1",
+        "android_client_info": {
+          "package_name": "com.qt.rehman.surahrahman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:345e41404739cb0f",
+        "android_client_info": {
+          "package_name": "com.qt.telugukeyboard.telugutyping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:cd1bf5bc3861059e",
+        "android_client_info": {
+          "package_name": "com.qt.yasin.surahyaseen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:75c75fc9c22096ed",
+        "android_client_info": {
+          "package_name": "com.qt.yasin.yaseenmelayu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579424357201:android:748b8c816af335fa",
+        "android_client_info": {
+          "package_name": "com.tamilkeyboard.tamiltyping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579424357201-3e5mckbfq6faso7ettgqj1p99brek976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxxe6nJxe6rxd3Ruck-8IRASVOZ2c5_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

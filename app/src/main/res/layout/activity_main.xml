@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        ads:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp" />
+
+        <ImageView
+            android:id="@+id/rateUs"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="4dp"
+            android:padding="@dimen/_8sdp"
+            android:src="@drawable/ic_thumbs_up" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/settings_image"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/app_name"
+        android:textColor="#21928F"
+        android:textSize="@dimen/_20sdp"
+        android:visibility="visible"
+        ads:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:layout_constraintBottom_toTopOf="@+id/main_fram"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:id="@+id/instructions_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/instructions_text_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Test"
+                android:textColor="#707070"
+                android:textSize="@dimen/_15sdp" />
+
+            <RelativeLayout
+                android:id="@+id/setting_button"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/settings_button"
+                android:splitMotionEvents="false">
+
+                <TextView
+                    android:id="@+id/setting_button_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:splitMotionEvents="false"
+                    android:text="Settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/instructions_text_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Test"
+                android:textColor="#707070"
+                android:textSize="@dimen/_15sdp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/finish_button"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/done_button"
+                android:splitMotionEvents="false"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:splitMotionEvents="false"
+                    android:text="Done"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/instructions_area"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/step_1"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_margin="@dimen/_1sdp"
+                android:background="@drawable/unseleted_page_drawable" />
+
+            <View
+                android:id="@+id/step_2"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_margin="@dimen/_1sdp"
+                android:background="@drawable/unseleted_page_drawable" />
+
+            <View
+                android:id="@+id/step_3"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_margin="@dimen/_1sdp"
+                android:background="@drawable/unseleted_page_drawable" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/main_fram"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <FrameLayout
+            android:id="@+id/adContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Telugu Keyboard</string>
+
+    <string name="simple_ime">Telugu Keyboard</string>
+    <string name="subtype_en_US">English (US)</string>
+
+    <string name="step_1_instructions">Add "Telugu Keyboard" in your settings.</string>
+    <string name="step_2_instructions">Now, select "Telugu Keyboard" as input method.</string>
+    <string name="step_3_instructions">Congratulations! Now you can type Messages, Text, E-mail with Telugu Keyboard.</string>
+    <string name="disable_message">Now, if you want to disable Telugu Keyboard Switch Input Method.</string>
+
+    <string name="enter_text_to_translate">Enter text to translate</string>
+
+
+
+    <!-- Test ids -->
+<!--        <string name="admob_id">ca-app-pub-3940256099942544/6300978111</string>
+        <string name="admob_interistitial">ca-app-pub-3940256099942544/1033173712</string>
+        <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+
+
+        <!-- Live ids -->
+        <string name="admob_id">ca-app-pub-8684771314768650/5308400372</string>
+        <string name="admob_interistitial">ca-app-pub-8684771314768650/6036116542</string>
+        <string name="app_id">ca-app-pub-8684771314768650~7934563712</string>
+
+
+
+    <string name="would_you_like_to_rate_us">Would you like to rate us?</string>
+
+
+<!--    Int: ca-app-pub-8684771314768650/6036116542-->
+
+<!--    Ban: ca-app-pub-8684771314768650/5308400372-->
+
+<!--    Admob app id: ca-app-pub-8684771314768650~7934563712-->
+
+
+</resources>
